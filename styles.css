@@ -1,0 +1,301 @@
+/*Index*/
+
+.pre-navbar {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4rem;
+    padding: 5% 0;
+}
+
+.navbar {
+    padding: 0 10%;
+    text-align: center;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(45deg, #3fc5f0, #293a80) 1;
+}
+
+.nav-item a.active {
+    border-bottom: 3px solid #3fc5f0;
+}
+
+.nav-item a:hover {
+    border-bottom: 3px solid #293a80;
+}
+
+.fixed-nav nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.quote {
+    padding: 5% 30%;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.25rem;
+    background-color: #9fd3c7;
+}
+
+.quote hr {
+    width: 10%;
+    border-color: #5f6769;
+}
+
+.vision {
+    background-color: white;
+    padding: 5% 15%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.vision hr {
+    width: 22%;
+    margin-bottom: 5%;
+    border-width: 2px;
+    border-color: #5f6769;
+}
+
+.vision p {
+    text-align: justify;
+}
+
+.vision img {
+    margin: 5% 0;
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 3% 5%;
+    background-color: #385170;
+}
+
+footer span {
+    margin: 0 2.5%;
+}
+
+footer p {
+    margin-top: 2%;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer i {
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        padding: 5%;
+    }
+
+    .quote {
+        padding: 5% 5%;
+    }
+
+    .vision {
+        padding: 5% 5%
+    }
+
+    footer {
+        padding: 3% 0
+    }
+}
+
+/*Register*/
+
+.register-info {
+    padding: 5% 10% 2.5%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.register-info .col-md-5 {
+    padding: 2%;
+    margin: 2% auto;
+    background-color: #ffa41b;
+    border-radius: 20px;
+}
+
+.register {
+    padding: 5% 10%;
+}
+
+.register-form {
+    padding: 2%;
+}
+
+.register-form hr {
+    width: 23%;
+    margin-bottom: 5%;
+    border-width: 2px;
+    border-color: #5f6769;
+}
+
+.partner-form {
+    padding: 2%;
+}
+
+.partner-form hr {
+    width: 21%;
+    margin-bottom: 5%;
+    border-width: 2px;
+    border-color: #5f6769;
+}
+
+.full-hr{
+    border: 1px solid;
+    border-image: linear-gradient(to right, #9fd3c7, #005082, #9fd3c7) 1;
+}
+
+@media only screen and (max-width: 992px) {
+    .register-info {
+        padding: 5%;
+    }
+}
+
+/*Stories*/
+
+.dream {
+    padding: 5% 10%;
+    background-image: linear-gradient(#feb377, #e6a157);
+    font-family: Montserrat, sans-serif;
+}
+
+.dream hr {
+    width: 47%;
+    margin-bottom: 5%;
+    border-width: 2px;
+}
+
+.dream p {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .dream {
+        padding: 5%
+    }
+}
+
+/*About Us*/
+.about-us {
+    padding: 5% 10%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-us hr {
+    width: 18%;
+    margin-bottom: 5%;
+    border-width: 2px;
+    border-color: #5f6769;
+}
+
+.about-us .card {
+    margin: 20% 0 0;
+    width: 100%;
+    border: none;
+}
+
+.about-us .col-md-3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.about-us img {
+    margin: auto;
+    width: 50%;
+}
+
+.about-us .card-title {
+    color: #ffa41b;
+}
+
+.about-us .card-text {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 992px) {
+    .about-us {
+        padding: 5%;
+    }
+}
+
+/*FAQS*/
+
+.questions {
+    padding: 5% 15% 2%;
+}
+
+.questions hr {
+    width: 10%;
+    margin-bottom: 5%;
+    border-width: 2px;
+    border-color: #5f6769;
+}
+
+.ques {
+    color: #ffa41b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ans {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2%;
+    color: #005082;
+}
+
+
+.card {
+    width: 50%;
+    margin: 0 auto 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control {
+    margin: 5% 0;
+    border-radius: 20px;
+}
+
+.query-submit {
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.query-submit {
+    background-image: linear-gradient(to right, #3fc5f0 0%, #293a80 51%, #3fc5f0 100%)
+}
+
+.query-submit:hover {
+    background-position: right center;
+}
+
+@media only screen and (max-width: 992px) {
+    .questions {
+        padding: 5%;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
